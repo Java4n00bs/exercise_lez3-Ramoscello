@@ -3,6 +3,8 @@ package exercise1;
 public class IMain {
     public static void main(String[] args) {
 
+      impiegato newimpiegato
+
     }
 }
 

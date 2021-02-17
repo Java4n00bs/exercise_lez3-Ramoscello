@@ -2,7 +2,13 @@ package exercise0;
 
 public class PMain {
     public static void main(String[] args) {
+      
+      Persona persona1 = new Persona("Luca" , "Aggio",4);
+      Persona persona2 = new Persona("Luca" , "Aggio",2);
+      Persona persona3 = persona2;
 
+      System.out.println(persona3.dettagli());
+      
     }
 }
 
@@ -17,3 +23,4 @@ public class PMain {
  *      ovvero preceduta dal nome del suo stesso package.
  *
  */
+
